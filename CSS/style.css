@@ -1,0 +1,280 @@
+header {
+    background-color: #F2F7FFB2;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 16px inherit;
+}
+
+.navbar-left {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 105px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-left: 32px;
+    align-items: center;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.navbar-right {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.playstore-icon {
+    width: 135px;
+}
+
+.section {
+    padding: 64px 0;
+}
+
+.hero-section {
+    background-color: #F2F7FFB2;
+}
+
+.hero-section-wrapper {
+    display: flex;
+    /* background-color: #F2F7FFB2; */
+}
+
+.hero-title {
+    flex-grow: 1;
+}
+
+.hero-image {
+    width: 350px;
+}
+
+.logo-list-section {
+    padding: 16px 0;
+}
+
+.logo-list-wrapper {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #C0CCDA1A;
+    border-bottom: 1px solid #C0CCDA1A;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+/* .logo-list {} */
+
+.logo-list li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.logo-list li:first-child {
+    margin-left: 0;
+}
+
+.logo-list li:last-child {
+    margin-right: 0;
+}
+
+.second-heading {
+    text-align: center;
+}
+
+.second-heading-contents {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.second-heading-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-heading-list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+
+.second-heading-list-icon {
+    width: 32px;
+}
+
+.second-heading-list-description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.second-heading-list-description p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.customers-section {
+    background-color: #D5FAFC;
+}
+
+.customers-card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: #D5FAFC; */
+}
+
+.customers-card-title {
+    background-image: url(../image/Quote\ Mark.png);
+    background-repeat: no-repeat;
+}
+
+.achievements-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.achievements-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.achievements-icons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.achievements-icons-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.achievements-icons-list li .achievements-icon {
+    width: 48px;
+}
+
+.achievements-list-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+.headline-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.headline-image-wrapper {
+    background-color: #F1E4FF;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.headline-image {
+    width: 360px;
+}
+
+.projects-section {
+    background-color: #2EC5CE;
+}
+
+.projects-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: #2EC5CE; */
+}
+
+.projects-left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 48px;
+}
+
+.project-app-icon-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.project-app-icon {
+    width: 135px;
+}
+
+.projects-right {
+    display: flex;
+}
+
+.footer-section {
+    background-color: #0B0D17;
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    /* background-color: #0B0D17; */
+}
+
+.footer-left {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-logo {
+    width: 32px;
+}
+
+.footer-list-items-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-list-items {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.copyright {
+    color: #D9DBE1;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-app-icon {
+    width: 135px;
+}
